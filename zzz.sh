@@ -6,7 +6,7 @@ curl -sL $URL > run.sh
 # setup
 echo setting up node
 sudo apk update
-sudo apk add curl tar wget pkgconfig libressl-dev jq git bash
+sudo apk add curl tar wget pkgconfig libressl-dev jq git bash make
 sudo apk add go
 git clone https://github.com/celestiaorg/celestia-node.git
 cd celestia-node
