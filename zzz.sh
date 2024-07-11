@@ -1,3 +1,3 @@
-echo "zzz..."
+echo zzz
 apk update
-echo "zzz..."
+echo zzz
