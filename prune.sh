@@ -1,2 +1,3 @@
 echo pruning node...
+pkill celestia
 ./celestia-node/build/celestia light unsafe-reset-store --p2p.network celestia
